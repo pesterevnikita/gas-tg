@@ -1,13 +1,4 @@
 
-function onOpen() {
-  var ui = SpreadsheetApp.getUi();
-  // Or DocumentApp or FormApp.
-  ui.createMenu('fin')
-    .addItem('parse shit', 'getMessages')
-    .addToUi();
-}
-
-
 //парсим post запрос, проверяем айди отправителя
 function doPost(e) {
   var content = JSON.parse(e.postData.contents);
