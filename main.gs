@@ -1,4 +1,4 @@
-var token = 'ass';
+
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
   // Or DocumentApp or FormApp.
